@@ -28,7 +28,7 @@ h1 {
 
 .gallery_1,
 .gallery_5 {
-  
+
   display: grid;
   grid-template: repeat(2, 1fr) / repeat(4, 1fr);
   gap: 20px;
@@ -50,8 +50,6 @@ h1 {
 
 .item-1 {
   grid-area: A;
-  width: 623px;
-  height: 200px;
 }
 
 .item-2 {
@@ -68,14 +66,12 @@ h1 {
 
 .item-5 {
   grid-area: E;
-  width: 300px;
-  height: 435px;
+
 }
 
 .item-6 {
   grid-area: F;
-  width: 623px;
-  height: 200px;
+
 }
 
 .item-7 {
@@ -138,6 +134,7 @@ h1 {
   width: 0px;
   height: 800px;
 }
+
 .art-1 {
   grid-area: Aa;
 }
