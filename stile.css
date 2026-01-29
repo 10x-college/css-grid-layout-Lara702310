@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght,YOPQ@100..900,300&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+
+}
+
+.wrraper_gallery {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+
+}
+
+h1 {
+  height: 100px;
+  font-size: 48px;
+  font-weight: 500;
+
+}
+
+.gallery_1,
+.gallery_5 {
+  
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+  gap: 20px;
+
+}
+
+.gallery_3 {
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+  gap: 15px;
+  display: grid;
+  grid-template-areas:
+    "A A B C"
+    "D E F F"
+    "G E L K";
+
+}
+
+.item-1 {
+  grid-area: A;
+  width: 623px;
+  height: 200px;
+}
+
+.item-2 {
+  grid-area: B;
+}
+
+.item-3 {
+  grid-area: C;
+}
+
+.item-4 {
+  grid-area: D;
+}
+
+.item-5 {
+  grid-area: E;
+  width: 300px;
+  height: 435px;
+}
+
+.item-6 {
+  grid-area: F;
+  width: 623px;
+  height: 200px;
+}
+
+.item-7 {
+  grid-area: G;
+}
+
+.item-8 {
+  grid-area: L;
+
+}
+
+.item-9 {
+  grid-area: K;
+}
+
+
+.gallery_5 {
+  margin-top: 60px;
+  gap: 10px;
+  grid-template-areas:
+    "a b . c"
+    ". d f .";
+}
+
+.img-1 {
+  grid-area: a;
+}
+
+.img-2 {
+  grid-area: b;
+}
+
+.img-3 {
+  grid-area: c;
+}
+
+.img-4 {
+  grid-area: d;
+}
+
+.img-5 {
+  grid-area: f;
+}
+
+
+.gallery_6 {
+  align-items: center;
+  display: grid;
+  gap: 10px;
+  grid-template-areas:
+    "Aa Aa Aa Q Bb ."
+    "Cc Cc Dd Q . Ee"
+    ". Ff . Q  Gg ."
+    "Hh . Nn Q . Mm"
+}
+
+.item-line {
+  grid-area: Q;
+  border: 1px solid rgb(68, 66, 66);
+  width: 0px;
+  height: 800px;
+}
+.art-1 {
+  grid-area: Aa;
+}
+
+.art-2 {
+  grid-area: Bb;
+}
+
+.art-3 {
+  grid-area: Cc;
+}
+
+.art-4 {
+  grid-area: Dd;
+}
+
+.art-5 {
+  grid-area: Ee;
+}
+
+.art-6 {
+  grid-area: Ff;
+}
+
+.art-7 {
+  grid-area: Gg;
+}
+
+.art-8 {
+  grid-area: Hh;
+}
+
+.art-9 {
+  grid-area: Nn;
+}
+
+.art-10 {
+  grid-area: Mm;
+}
